@@ -73,6 +73,12 @@ a {
     color: #ffffff;
 }
 
+.card-why-us {
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
 a.button {
     display: inline-block;
 }
@@ -87,6 +93,11 @@ a.button {
 
 .button i {
     margin-right: 8px;
+}
+
+.why-us .button {
+    line-height: 2.5rem;
+    background-color: #9792E4;
 }
 
 /* HEADER */
@@ -233,6 +244,44 @@ a.button {
     text-transform: uppercase;
     font-style: normal;
 }
+
+/* WHY US */
+.why-us {
+    padding: 3.75rem 0;
+    background-color: #9792E4;
+}
+
+.why-us .section__title {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: #ffffff;
+    margin-bottom: 3.75rem;
+}
+
+.why-us .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.why-us .step-number {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #9792E4;
+}
+
+.why-us .card__title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #9792E4;
+}
+
+.why-us .card__description {
+    margin-bottom: 1.5rem;
+}
+
+
 
 
 
