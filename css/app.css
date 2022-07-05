@@ -31,6 +31,12 @@ a {
     padding: 0 2rem;
 }
 
+.container-small {
+    max-width: 877px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
 .features .col:not(:last-child) {
     margin-bottom: 1.5rem;
 }
@@ -50,6 +56,14 @@ a {
 .card-special {
     padding-bottom: 0;
     background-color: #B5DDFF;
+}
+
+.card-planning {
+    padding: 2rem 1.5rem;
+    border-radius: 48px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
 }
 
 a.button {
@@ -121,6 +135,52 @@ a.button {
     margin-bottom: 2rem;
     color: #0084FD;
 }
+
+/* PLANNING */
+.planning {
+    padding: 8rem 0 4rem;
+    background-color: #9792E4;
+    color: #ffffff;
+}
+
+.planning__content img {
+    margin-bottom: 5rem;
+}
+
+.planning__content h2 {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.planning__content p {
+    margin-bottom: 2rem;
+}
+
+.card-planning img {
+    margin-bottom: 2rem;
+}
+
+.card-planning h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-planning p {
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.card-planning i {
+    background-color: #9792E4;
+    line-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
 
 
 @media (min-width: 640px) {
