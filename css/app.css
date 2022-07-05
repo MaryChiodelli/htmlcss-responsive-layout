@@ -6,6 +6,13 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    line-height: 1.75rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 ul, ol, menu {
@@ -38,6 +45,26 @@ a {
     background-color: #B5DDFF;
 }
 
+.card-special {
+    padding-bottom: 0;
+}
+
+a.button {
+    display: inline-block;
+}
+
+.button {
+    line-height: 2.75rem;
+    border-radius: 999px;
+    padding: 0 3rem;
+    background-color: #0084FD;
+    color: #ffffff;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
 /* HEADER */
 .main-header {
     padding: 0.75rem 0;
@@ -64,9 +91,25 @@ a {
    line-height: 2.25rem;
 }
 
-/* FEATURES*/
+/* FEATURES */
 .features {
     padding: 3rem 0 5rem;
+}
+
+.features .card__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0084FD;
+    margin-bottom: 1.5rem;
+}
+
+.features .card__description {
+    margin-bottom: 2rem;
+    color: #5A6E7F;
+}
+
+.features .card-special a.button {
+    margin-bottom: 2rem;
 }
 
 
