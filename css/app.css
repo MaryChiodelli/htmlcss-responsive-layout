@@ -26,5 +26,53 @@ a {
 
 /* HEADER */
 .main-header {
+    padding: 0.75rem 0;
     background-color: #0084FD;
+    color: #ffffff;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .logo {
+    width: 80px;
+}
+
+.main-header .main-nav {
+    display: none;
+}
+
+.main-header i {
+   font-size: 1.25rem;
+   line-height: 2.25rem;
+}
+
+@media (min-width: 832px) {
+    .main-header .main-nav {
+        display: block;
+    }
+
+    .main-header .nav-menu {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .main-header a {
+        display: inline-block;
+        padding: 0 1rem;
+    }
+    .main-header a.button {
+        line-height: 2.25rem;
+        border-radius: 999px;
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .main-header i {
+        display: none;
+    }
 }
