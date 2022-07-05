@@ -323,6 +323,27 @@ a.button {
     .testimonials .section__title {
         font-size: 2.25rem;
     }
+
+    .why-us .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .why-us .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        min-width: 250px;
+    }
+
+    .card-why-us {
+        padding-top: 3rem;
+    }
+    .why-us .step-number {
+        font-size: 4rem;
+    }
+    .why-us .section__title {
+        font-size: 2.25rem;
+        text-align: center;
+    }
 }
 
 
@@ -385,5 +406,8 @@ a.button {
     .testimonials .section__title {
         font-size: 3rem;
     }
-    
+
+    .why-us .section__title {
+        font-size: 3rem;
+    }
 }
