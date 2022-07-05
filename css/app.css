@@ -242,7 +242,7 @@ a.button {
         flex-wrap: wrap;
         margin: 0 -12px;
     }
-    .col {
+    .features .col {
         padding: 0 12px;
     }
     .features .col:not(.col-8) {
@@ -265,6 +265,14 @@ a.button {
         margin-bottom: 2.5rem;
         font-size: 4.5rem;
         line-height: 1.2;
+    }
+
+    .testimonials .card-testimonial {
+        flex-direction: row;
+        text-align: left;
+    }
+    .testimonials .section__title {
+        font-size: 2.25rem;
     }
 }
 
@@ -320,4 +328,13 @@ a.button {
     .planning .col:last-child {
         align-self: flex-end;
     }
+
+    .testimonials .card-testimonial {
+        padding-right: 3.75rem;
+        gap: 3.75rem;
+    }
+    .testimonials .section__title {
+        font-size: 3rem;
+    }
+    
 }
