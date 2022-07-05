@@ -39,14 +39,17 @@ a {
 .card {
     padding: 2rem 1.5rem;
     border-radius: 20px;
+    height: 100%;
 }
 
 .card-features {
     background-color: #B5DDFF;
+    text-align: center;
 }
 
 .card-special {
     padding-bottom: 0;
+    background-color: #B5DDFF;
 }
 
 a.button {
@@ -112,18 +115,47 @@ a.button {
     margin-bottom: 2rem;
 }
 
+.features .card-features i {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    margin-bottom: 2rem;
+    color: #0084FD;
+}
+
+
+@media (min-width: 640px) {
+    .features .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -12px;
+    }
+    .col {
+        padding: 0 12px;
+    }
+    .features .col:not(.col-8) {
+        margin-bottom: 0;
+    }
+    .features .col-8 + .col-4 {
+        margin-bottom: 1.5rem;
+    }
+    .features .col-8 {
+        flex-basis: calc( (100% / 3 ) * 2 );
+    }
+    .features .col-4 {
+        flex-basis: calc( (100% / 3 ) * 1 );
+    }
+}
+
 
 @media (min-width: 832px) {
     .main-header .main-nav {
         display: block;
     }
-
     .main-header .nav-menu {
         display: flex;
         align-items: center;
         gap: 1rem;
     }
-
     .main-header a {
         display: inline-block;
         padding: 0 1rem;
@@ -134,8 +166,18 @@ a.button {
         background-color: #ffffff;
         color: #000000;
     }
-
     .main-header i {
         display: none;
+    }
+
+    .features .card-special {
+        display: flex;
+    }
+    .features .card-special .card__content,
+    .features .card-special .card__thumbnail {
+        flex-basis: calc((100% / 2 ));
+    }
+    .features .card-special .card__thumbnail {
+        align-self: flex-end;
     }
 }
