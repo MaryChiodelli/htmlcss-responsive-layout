@@ -204,6 +204,15 @@ a.button {
     .features .col-4 {
         flex-basis: calc( (100% / 3 ) * 1 );
     }
+
+    .planning .planning__content img {
+        margin-bottom: 8rem;
+    }
+    .planning .planning__content h2 {
+        margin-bottom: 2.5rem;
+        font-size: 4.5rem;
+        line-height: 1.2;
+    }
 }
 
 
@@ -238,6 +247,24 @@ a.button {
         flex-basis: calc((100% / 2 ));
     }
     .features .card-special .card__thumbnail {
+        align-self: flex-end;
+    }
+
+    .planning .row {
+        display: flex;
+        margin: 0 -32px;
+    }
+    .planning .col {
+        padding: 0 2rem;
+    }
+    .planning .col-6 {
+        flex-basis: 50%;
+    }
+
+    .planning .planning__content h2 {
+        font-size: 2rem;
+    }
+    .planning .col:last-child {
         align-self: flex-end;
     }
 }
